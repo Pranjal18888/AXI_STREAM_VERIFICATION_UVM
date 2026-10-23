@@ -1,8 +1,3 @@
-# AXI_STREAM_VERIFICATION_UVM
-
-
-
-
 
 # AXI4-Stream Asynchronous FIFO | Protocol-Based RTL Verification
 
@@ -103,17 +98,6 @@ Only one bit changes per increment in Gray code, so a sampled pointer is never o
 - Verilog / SystemVerilog
 - UVM
 
-## How to Run
-
-### On EDA Playground
-
-1. Open [EDA Playground](https://www.edaplayground.com/).
-2. Set **Testbench + Design** to `SystemVerilog/Verilog` and **UVM/OVM** to `UVM 1.2`.
-3. Pick a simulator that supports UVM (e.g., Synopsys VCS / Aldec Riviera-PRO / Cadence Xcelium).
-4. Paste RTL in `design.sv` and the testbench in `testbench.sv`.
-5. Enable **Open EPWave after run** to view waveforms.
-6. Click **Run**.
-
 ## Results
 
 - All tests passing, scoreboard mismatches: **0**
@@ -124,8 +108,3 @@ Only one bit changes per increment in Gray code, so a sampled pointer is never o
 
 `AXI4-Stream` · `Clock Domain Crossing (CDC)` · `Asynchronous FIFO` · `Gray Code` · `2-FF Synchronizer` · `UVM` · `SystemVerilog Assertions` · `Functional Coverage`
 
-## Future Work
-
-- Add almost-full / almost-empty flags
-- Add parameterizable `TKEEP`, `TUSER`, `TID`
-- Formal verification of CDC properties
