@@ -106,5 +106,5 @@ Only one bit changes per increment in Gray code, so a sampled pointer is never o
 
 ## Key Concepts
 
-`AXI4-Stream` · `Clock Domain Crossing (CDC)` · `Asynchronous FIFO` · `Gray Code` · `2-FF Synchronizer` · `UVM` · `SystemVerilog Assertions` · `Functional Coverage`
+`AXI4-Stream` · `Clock Domain Crossing (CDC)` · `Asynchronous FIFO` · `Gray Code` · `2-FF Synchronizer` · `UVM` · `SystemVerilog Assertions` · `Functional Coverage`.
 
