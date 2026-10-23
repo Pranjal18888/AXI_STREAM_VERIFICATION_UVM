@@ -113,4 +113,4 @@ module axis_async_fifo #(
 
   assign empty = (rd_ptr_gray == wr_ptr_gray_sync2);
 
-endmodule : axis_async_fifo
+endmodule : axis_asynchro_fifo
